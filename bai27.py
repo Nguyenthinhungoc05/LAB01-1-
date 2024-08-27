@@ -19,5 +19,5 @@ if h == 'v':
 if h == 't':
     r = int(input("Nhap ban kinh hinh tron: "))
     print("P = ", 2*3.14*r)
-    print("S = ", 2*3.14*(r**2))
+    print("S = ", 3.14*(r**2))
     

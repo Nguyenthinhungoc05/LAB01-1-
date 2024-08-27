@@ -6,8 +6,10 @@ Created on Tue Aug 27 14:46:07 2024
 """
 
 a = input("Nhap 1 chu cai bat ki: ")
-if a == a.lower():
-    print("", a.upper())
+if a == a.lower() and len(a) == 1:
+    print(a.upper())
+elif a == a.upper() and len(a) == 1:
+    print(a.lower())
 else:
-    print("", a.lower())
+    print("Khong hop le!")
     

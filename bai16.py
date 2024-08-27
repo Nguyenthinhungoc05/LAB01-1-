@@ -13,4 +13,4 @@ for i in thoigian:
         so += i
 so_cuoi = so[:-1]
 hh,mm,ss = map(int,so_cuoi.split (':'))
-print(thoigian,"thi doi ra giay bang  ", hh*3600 + mm*60 + ss)
+print(thoigian,"thi doi ra giay bang ", hh*3600 + mm*60 + ss)
